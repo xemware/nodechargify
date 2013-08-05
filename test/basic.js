@@ -9,7 +9,7 @@ process.on('uncaughtException', function(err)
 nodechargify.set('logginglevel', 'debug');
 
 var site = nodechargify.connectSite('mockgentest', {
-    chargify: { sitename: 'mockgentest', apiKey: 'jD86B7e6Atzc1ZmWxrsA', password: 'x' }
+    chargify: { sitename: 'mockgentest', apiKey: process.argv[2], password: 'x' }
 })
 site.productFamilies.load()
     .then(function()
