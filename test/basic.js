@@ -1,16 +1,24 @@
 ﻿var nodechargify = require('..')
-    , util = require('util')
-    , _ = require('lodash')
-
-process.on('uncaughtException', function(err)
-{
-    console.log(err.stack);
-})
-nodechargify.set('logginglevel', 'debug');
-
 var site = nodechargify.connectSite('mockgentest', {
-    chargify: { sitename: 'mockgentest', apiKey: process.argv[2], password: 'x' }
+    chargify: { apiKey: process.argv[2] }
 })
+
+var productFamily = site.productFamilies.wrap(12144);
+productFamily.load()
+    .then(function ()
+    {
+        console.log('Product family: ' + productFamily.name);
+        productFamily.products.forEach(function(product)
+        {
+            console.log(' - Product: ' + product.name);
+        })
+    })
+    .fail(function(reason)
+    {
+        console.log(reason);
+    })
+
+/*
 site.productFamilies.load()
     .then(function()
     {
@@ -181,3 +189,5 @@ site.productFamilies.load()
         console.log('e',reason, reason.stack)
     })
 // console.log(site.productFamilies[0].parentSite);
+
+*/
