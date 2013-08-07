@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "Chargify REST API wrapper",
   "main": "lib/main.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "chargify",
@@ -24,5 +27,9 @@
     "log4js": "",
     "lodash": "",
 	"node-schema-object": "git://github.com/TimNZ/node-schema-object.git"
+  },
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*"
   }
 }

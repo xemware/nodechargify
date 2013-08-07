@@ -13,7 +13,7 @@ npm install nodechargify
 Basic usage:
 
 ```
-var nodechargify = require('..')
+var nodechargify = require('nodechargify')
 var site = nodechargify.connectSite('mockgentest', {
     chargify: { apiKey: '12345678' }
 })
@@ -112,6 +112,25 @@ productFamily.load()
 ###Customers
 
 ###Subscriptions
+
+###Subscription Components
+
+###Charges
+
+###Allocations
+
+###Events
+
+###Transactions
+
+###Statements
+
+
+
+
+
+#Tests
+To be provided
 
 ---
 
