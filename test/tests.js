@@ -76,12 +76,11 @@ describe('site operations', function ()
 
     describe('connectSite', function ()
     {
-        it('connectSite should return valid site', function (done)
+        it('connectSite should return valid site', function ()
         {
             site = nodechargify.connectSite('sitename', { chargify: { apiKey: '123456' } });
             site.siteName.should.equal('sitename');
             site._request = requestMock;
-            done();
         })
     })
 
@@ -94,38 +93,16 @@ describe('site operations', function ()
                 console.log(method, path);
                 if (path.indexOf('products') >= 0)
                 {
-                    return {
-                        "product": {
-                            "price_in_cents": 4900,
-                            "name": "Basic",
-                            "handle": "basic",
-                            "product_family": {
-                                "name": 'Family',
-                                "handle": 'family',
-                                "description": 'family desc',
-                                "accounting_code": 'accounting_code'
-                            },
-                            "description": 'product',
-                            "accounting_code": 'code',
-                            "interval_unit": "month",
-                            "interval": 1
-                        }
-
+                    return { "product": { "price_in_cents": 4900, "name": "Basic", "handle": "basic", "product_family": { "name": 'Family',
+                                "handle": 'family', "description": 'family desc', "accounting_code": 'accounting_code' },
+                            "description": 'product', "accounting_code": 'code', "interval_unit": "month", "interval": 1 }
                     }
                 }
                 else if (path.indexOf('stats') >= 0)
                 {
-                    return {
-                        "seller_name":"Acme, Inc.",
-                        "site_name":"Production",
-                        "stats":{
-                            "revenue_this_month":"$10,000.00",
-                            "total_subscriptions":120,
-                            "subscriptions_today":4,
-                            "revenue_today":"$1,405.12",
-                            "total_revenue":"$45,978.81",
-                            "revenue_this_year":"$27,935.24"
-                        }
+                    return { "seller_name":"Acme, Inc.", "site_name":"Production", "stats":{ "revenue_this_month":"$10,000.00",
+                            "total_subscriptions":120, "subscriptions_today":4, "revenue_today":"$1,405.12", "total_revenue":"$45,978.81",
+                            "revenue_this_year":"$27,935.24" }
                     }
                 }
             });
