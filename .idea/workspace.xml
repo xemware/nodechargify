@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b919ab94-d59b-42d2-8e52-902ac050ef10" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Development\Projects\HostedPortal\Source\nodechargify\test\basic.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/entity/coupon.js" afterPath="$PROJECT_DIR$/lib/entity/coupon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/coupons.js" afterPath="$PROJECT_DIR$/lib/collections/coupons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/customers.js" afterPath="$PROJECT_DIR$/lib/collections/customers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/product_families.js" afterPath="$PROJECT_DIR$/lib/collections/product_families.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/products.js" afterPath="$PROJECT_DIR$/lib/collections/products.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/subscription_components.js" afterPath="$PROJECT_DIR$/lib/collections/subscription_components.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/subscriptions.js" afterPath="$PROJECT_DIR$/lib/collections/subscriptions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nodechargify.iws" />
@@ -34,19 +26,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="coupons.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/collections/coupons.js">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1513">
+            <state line="2" column="19" selection-start="47" selection-end="47" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="basic.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dumb_tests/basic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="47" selection-end="47" vertical-scroll-proportion="0.027552674" vertical-offset="17" max-vertical-offset="697">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3910">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entity.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/entity/entity.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="31" selection-start="435" selection-end="435" vertical-scroll-proportion="0.32080925" vertical-offset="16" max-vertical-offset="1360">
               <folding />
             </state>
           </provider>
@@ -55,16 +56,25 @@
       <file leaf-file-name="customers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collections/customers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1088">
+            <state line="24" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product_families.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/collections/product_families.js">
+      <file leaf-file-name="subscription.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/entity/subscription.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1190">
+            <state line="248" column="36" selection-start="9305" selection-end="9305" vertical-scroll-proportion="0.0" vertical-offset="4250" max-vertical-offset="5015">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/entity/customer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="9" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
@@ -73,7 +83,7 @@
       <file leaf-file-name="product_family_components.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collections/product_family_components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="4" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+            <state line="19" column="4" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -82,7 +92,7 @@
       <file leaf-file-name="products.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collections/products.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1088">
+            <state line="23" column="0" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -91,16 +101,7 @@
       <file leaf-file-name="subscription_components.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collections/subscription_components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="731">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collection.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/collections/collection.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="552" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="1932" max-vertical-offset="3145">
+            <state line="28" column="0" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -109,16 +110,7 @@
       <file leaf-file-name="subscriptions.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collections/subscriptions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="21" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1343">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="component_usages.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/collections/component_usages.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="731">
+            <state line="26" column="21" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -148,7 +140,6 @@
         <option value="$PROJECT_DIR$/lib/collections/collection.js" />
         <option value="$PROJECT_DIR$/lib/entity/product.js" />
         <option value="$PROJECT_DIR$/lib/entity/site.js" />
-        <option value="$PROJECT_DIR$/dumb_tests/basic.js" />
         <option value="$PROJECT_DIR$/lib/entity/product_family_component.js" />
         <option value="$PROJECT_DIR$/lib/entity/coupon.js" />
         <option value="$PROJECT_DIR$/lib/collections/subscriptions.js" />
@@ -158,14 +149,15 @@
         <option value="$PROJECT_DIR$/lib/collections/products.js" />
         <option value="$PROJECT_DIR$/lib/collections/subscription_components.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/dumb_tests/basic.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1186" />
+    <option name="height" value="1216" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -324,12 +316,12 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -344,6 +336,14 @@
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -352,14 +352,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -409,25 +401,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1216" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39943343" sideWeight="0.57524014" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944608" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.255603" sideWeight="0.6705539" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.255603" sideWeight="0.679281" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39943343" sideWeight="0.57524014" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.320719" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944608" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -473,20 +465,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/entity/product_family_component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="353" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/entity/customer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="9" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/entity/coupon.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="55" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.0" vertical-offset="249" max-vertical-offset="1717">
@@ -494,25 +472,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dumb_tests/basic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="23" selection-start="2267" selection-end="2267" vertical-scroll-proportion="0.0" vertical-offset="1084" max-vertical-offset="3689">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/collections/allocations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/entity/entity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="137" max-vertical-offset="1360">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/collections/collection.js">
@@ -532,13 +494,6 @@
     <entry file="file://$PROJECT_DIR$/lib/collections/coupons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collections/customers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
@@ -580,7 +535,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="47" selection-end="47" vertical-scroll-proportion="0.027552674" vertical-offset="17" max-vertical-offset="697">
+        <state line="2" column="19" selection-start="47" selection-end="47" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/customers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/customer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="9" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/subscription.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="248" column="36" selection-start="9305" selection-end="9305" vertical-scroll-proportion="0.0" vertical-offset="4250" max-vertical-offset="5015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dumb_tests/basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3910">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/entity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="435" selection-end="435" vertical-scroll-proportion="0.32080925" vertical-offset="16" max-vertical-offset="1360">
           <folding />
         </state>
       </provider>
