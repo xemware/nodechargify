@@ -4,8 +4,7 @@
     <list default="true" id="b919ab94-d59b-42d2-8e52-902ac050ef10" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Development\Projects\HostedPortal\Source\nodechargify\test\basic.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/subscription_components.js" afterPath="$PROJECT_DIR$/lib/collections/subscription_components.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/entity/subscription.js" afterPath="$PROJECT_DIR$/lib/entity/subscription.js" />
     </list>
     <ignored path="nodechargify.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +39,7 @@
       <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="47" selection-end="47" vertical-scroll-proportion="0.051671732" vertical-offset="0" max-vertical-offset="697">
+            <state line="5" column="18" selection-start="139" selection-end="139" vertical-scroll-proportion="0.12917933" vertical-offset="0" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -67,7 +66,7 @@
       <file leaf-file-name="coupon.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/entity/coupon.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="33" selection-start="3503" selection-end="3503" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="1717">
+            <state line="95" column="33" selection-start="3503" selection-end="3503" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1717">
               <folding />
             </state>
           </provider>
@@ -85,7 +84,7 @@
       <file leaf-file-name="coupons.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collections/coupons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="2414" selection-end="2414" vertical-scroll-proportion="0.0" vertical-offset="829" max-vertical-offset="1581">
+            <state line="87" column="0" selection-start="2414" selection-end="2414" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1581">
               <folding />
             </state>
           </provider>
@@ -94,7 +93,7 @@
       <file leaf-file-name="subscriptions.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collections/subscriptions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="503" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="1343">
+            <state line="24" column="0" selection-start="503" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -112,7 +111,7 @@
       <file leaf-file-name="subscription.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/entity/subscription.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="182" column="28" selection-start="6869" selection-end="6869" vertical-scroll-proportion="0.0" vertical-offset="3094" max-vertical-offset="6001">
+            <state line="242" column="56" selection-start="8856" selection-end="8856" vertical-scroll-proportion="0.0" vertical-offset="3874" max-vertical-offset="6052">
               <folding />
             </state>
           </provider>
@@ -144,7 +143,6 @@
         <option value="$PROJECT_DIR$/lib/collections/allocations.js" />
         <option value="$PROJECT_DIR$/lib/entity/entity.js" />
         <option value="$PROJECT_DIR$/lib/misc/request_wrapper.js" />
-        <option value="$PROJECT_DIR$/lib/entity/subscription.js" />
         <option value="$PROJECT_DIR$/lib/collections/collection.js" />
         <option value="$PROJECT_DIR$/lib/collections/statements.js" />
         <option value="$PROJECT_DIR$/lib/collections/coupons.js" />
@@ -152,6 +150,7 @@
         <option value="$PROJECT_DIR$/dumb_tests/basic.js" />
         <option value="$PROJECT_DIR$/lib/collections/subscription_components.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/lib/entity/subscription.js" />
       </list>
     </option>
   </component>
@@ -187,6 +186,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -311,19 +311,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -338,14 +337,6 @@
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -354,6 +345,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -504,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/entity/subscription.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="28" selection-start="6869" selection-end="6869" vertical-scroll-proportion="0.0" vertical-offset="2837" max-vertical-offset="6001">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/collections/statements.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="11" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1530">
@@ -560,9 +552,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/subscription.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="56" selection-start="8856" selection-end="8856" vertical-scroll-proportion="0.0" vertical-offset="3874" max-vertical-offset="6052">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="47" selection-end="47" vertical-scroll-proportion="0.051671732" vertical-offset="0" max-vertical-offset="697">
+        <state line="5" column="18" selection-start="139" selection-end="139" vertical-scroll-proportion="0.12917933" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
