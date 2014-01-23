@@ -1,6 +1,6 @@
 {
   "name": "nodechargify",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Chargify REST API wrapper",
   "main": "lib/main.js",
   "directories": {
