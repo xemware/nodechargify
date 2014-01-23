@@ -1,3 +1,4 @@
 /node_modules
 /dumb_tests
 /.idea
+*.log
