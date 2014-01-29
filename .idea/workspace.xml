@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b919ab94-d59b-42d2-8e52-902ac050ef10" name="Default" comment="Remove .idea&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/main.js" afterPath="$PROJECT_DIR$/lib/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
+    <ignored path="nodechargify.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="nodechargify" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="basic.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dumb_tests/basic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="2" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="4488">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="20" selection-start="48" selection-end="48" vertical-scroll-proportion="0.025185185" vertical-offset="17" max-vertical-offset="697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="3" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="1" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscription_components.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collections/subscription_components.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="61" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1224">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collection.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collections/collection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="106" column="26" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.0" vertical-offset="1151" max-vertical-offset="3400">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coupon.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/entity/coupon.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="95" column="33" selection-start="3503" selection-end="3503" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1717">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/entity/site.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="32" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="2363">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coupons.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collections/coupons.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="0" selection-start="2414" selection-end="2414" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1581">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscriptions.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collections/subscriptions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="503" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1343">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statements.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collections/statements.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="11" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1530">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscription.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/entity/subscription.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="208" column="6" selection-start="7997" selection-end="7997" vertical-scroll-proportion="0.0" vertical-offset="3409" max-vertical-offset="6545">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lib/collections/subscriptions.js" />
+        <option value="$PROJECT_DIR$/lib/collections/customers.js" />
+        <option value="$PROJECT_DIR$/lib/collections/product_families.js" />
+        <option value="$PROJECT_DIR$/lib/collections/products.js" />
+        <option value="$PROJECT_DIR$/lib/entity/subscription_component.js" />
+        <option value="$PROJECT_DIR$/lib/collections/allocations.js" />
+        <option value="$PROJECT_DIR$/lib/entity/entity.js" />
+        <option value="$PROJECT_DIR$/lib/misc/request_wrapper.js" />
+        <option value="$PROJECT_DIR$/lib/collections/collection.js" />
+        <option value="$PROJECT_DIR$/lib/collections/statements.js" />
+        <option value="$PROJECT_DIR$/lib/collections/coupons.js" />
+        <option value="$PROJECT_DIR$/lib/entity/coupon.js" />
+        <option value="$PROJECT_DIR$/lib/collections/subscription_components.js" />
+        <option value="$PROJECT_DIR$/dumb_tests/basic.js" />
+        <option value="$PROJECT_DIR$/lib/entity/subscription.js" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lib/main.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1216" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodechargify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Node.js v0.10.13 Core Modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodechargify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodechargify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodechargify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodechargify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodechargify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodechargify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodechargify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodechargify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodechargify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodechargify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodechargify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodechargify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dumb_tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Development\Projects\HostedPortal\Source\nodechargify\lib\entity" />
+      <recent name="C:\Development\Projects\HostedPortal\Source\nodechargify\lib\collections" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.basic.js">
+    <configuration default="false" name="basic.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files (x86)/nodejs/node" path-to-js-file="basic.js" working-dir="$PROJECT_DIR$/dumb_tests">
+      <browser start="false" url="" with-js-debugger="false" />
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.basic.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.basic.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b919ab94-d59b-42d2-8e52-902ac050ef10" name="Default" comment="" />
+      <created>1378675805600</created>
+      <updated>1378675805600</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add support for Renewal Preview&#10;">
+      <created>1390441790643</created>
+      <updated>1390441790643</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated support for Renewal Preview&#10;">
+      <created>1390462720678</created>
+      <updated>1390462720678</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add support for Renewal Preview&#10;">
+      <created>1390462867665</created>
+      <updated>1390462867665</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Remove support for 0.6&#10;">
+      <created>1390463202807</created>
+      <updated>1390463202807</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add support for Renewal Preview&#10;">
+      <created>1390463585621</created>
+      <updated>1390463585621</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add support for Renewal Preview&#10;">
+      <created>1390463676857</created>
+      <updated>1390463676857</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1216" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299539" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25559106" sideWeight="0.66982025" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39943343" sideWeight="0.57524014" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299539" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299539" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Updated support for Renewal Preview&#10;" />
+    <MESSAGE value="Remove support for 0.6&#10;" />
+    <MESSAGE value="Add support for Renewal Preview&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add support for Renewal Preview&#10;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/collections/coupons.js</url>
+          <line>40</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/collections/collection.js</url>
+          <line>95</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/collections/collection.js</url>
+          <line>101</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/collections/collection.js</url>
+          <line>144</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/node-schema-object/lib/schemaobject.js</url>
+          <line>560</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/subscription_components.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="61" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="26" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.0" vertical-offset="1151" max-vertical-offset="3400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/coupon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="33" selection-start="3503" selection-end="3503" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="32" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="2363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/coupons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="2414" selection-end="2414" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/subscriptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="503" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/statements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="11" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/subscription.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="208" column="6" selection-start="7997" selection-end="7997" vertical-scroll-proportion="0.0" vertical-offset="3409" max-vertical-offset="6545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dumb_tests/basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="2" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="4488">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="17" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/subscription_components.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="61" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="26" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.0" vertical-offset="1151" max-vertical-offset="3400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/coupon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="33" selection-start="3503" selection-end="3503" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="32" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="2363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/coupons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="2414" selection-end="2414" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/subscriptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="503" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/statements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="11" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/subscription.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="208" column="6" selection-start="7997" selection-end="7997" vertical-scroll-proportion="0.0" vertical-offset="3409" max-vertical-offset="6545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dumb_tests/basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="19" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4488">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/subscription_components.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="61" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="26" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.0" vertical-offset="1151" max-vertical-offset="3400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/coupon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="33" selection-start="3503" selection-end="3503" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="32" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="2363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/coupons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="2414" selection-end="2414" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/subscriptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="503" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/statements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="11" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/subscription.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="56" selection-start="8856" selection-end="8856" vertical-scroll-proportion="0.0" vertical-offset="4114" max-vertical-offset="6052">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/component_usages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="82" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/customers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="134" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="1088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/customer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/entity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/transaction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/statement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="31" selection-start="2420" selection-end="2420" vertical-scroll-proportion="0.0" vertical-offset="506" max-vertical-offset="1564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/subscriptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="503" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/statements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="11" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="32" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="2363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/coupons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="2414" selection-end="2414" vertical-scroll-proportion="0.0" vertical-offset="829" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/coupon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="33" selection-start="3503" selection-end="3503" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="26" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.0" vertical-offset="1151" max-vertical-offset="3400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/subscription_components.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="61" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dumb_tests/basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="2" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4488">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/subscription.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="208" column="6" selection-start="7997" selection-end="7997" vertical-scroll-proportion="0.0" vertical-offset="3409" max-vertical-offset="6545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="1" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="48" selection-end="48" vertical-scroll-proportion="0.025185185" vertical-offset="17" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
