@@ -1,5 +1,4 @@
 /node_modules
 /dumb_tests
-*/.idea/workspace.xml
-*/.idea/tasks.xml
+*/.idea
 *.log
