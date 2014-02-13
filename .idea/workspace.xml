@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b919ab94-d59b-42d2-8e52-902ac050ef10" name="Default" comment="Remove .idea&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/collection.js" afterPath="$PROJECT_DIR$/lib/collections/collection.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/entity/subscription.js" afterPath="$PROJECT_DIR$/lib/entity/subscription.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/product_families.js" afterPath="$PROJECT_DIR$/lib/collections/product_families.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/entity/product_family.js" afterPath="$PROJECT_DIR$/lib/entity/product_family.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/products.js" afterPath="$PROJECT_DIR$/lib/collections/products.js" />
     </list>
     <ignored path="nodechargify.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,10 +32,17 @@
       <file leaf-file-name="basic.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dumb_tests/basic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4811">
-              <folding>
-                <marker date="1391567620854" expanded="true" signature="261:311" placeholder="{...}" />
-              </folding>
+            <state line="22" column="57" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_family.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/entity/product_family.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="13" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1088">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -255,7 +262,7 @@
       <file leaf-file-name="subscriptions.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collections/subscriptions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="25" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="1428">
+            <state line="18" column="5" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
               <folding />
             </state>
           </provider>
@@ -273,7 +280,34 @@
       <file leaf-file-name="subscription.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/entity/subscription.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="350" column="13" selection-start="13122" selection-end="13122" vertical-scroll-proportion="0.0" vertical-offset="5764" max-vertical-offset="6545">
+            <state line="359" column="0" selection-start="13520" selection-end="13520" vertical-scroll-proportion="-7.72" vertical-offset="5910" max-vertical-offset="6545">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_families.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collections/product_families.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="24" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/collections/products.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/entity/product.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="100" column="35" selection-start="3061" selection-end="3061" vertical-scroll-proportion="0.0" vertical-offset="1129" max-vertical-offset="1802">
               <folding />
             </state>
           </provider>
@@ -291,7 +325,7 @@
       <file leaf-file-name="customer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/entity/customer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="27" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+            <state line="61" column="0" selection-start="1505" selection-end="2137" vertical-scroll-proportion="0.0" vertical-offset="636" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
@@ -316,8 +350,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/lib/collections/customers.js" />
-        <option value="$PROJECT_DIR$/lib/collections/product_families.js" />
-        <option value="$PROJECT_DIR$/lib/collections/products.js" />
         <option value="$PROJECT_DIR$/lib/entity/subscription_component.js" />
         <option value="$PROJECT_DIR$/lib/collections/allocations.js" />
         <option value="$PROJECT_DIR$/lib/entity/entity.js" />
@@ -331,10 +363,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/node_modules/node-schema-object/lib/schemaobject.js" />
         <option value="$PROJECT_DIR$/lib/collections/subscriptions.js" />
-        <option value="$PROJECT_DIR$/dumb_tests/basic.js" />
         <option value="$PROJECT_DIR$/dumb_tests/testreactivation.js" />
         <option value="$PROJECT_DIR$/lib/collections/collection.js" />
         <option value="$PROJECT_DIR$/lib/entity/subscription.js" />
+        <option value="$PROJECT_DIR$/lib/collections/products.js" />
+        <option value="$PROJECT_DIR$/lib/collections/product_families.js" />
+        <option value="$PROJECT_DIR$/lib/entity/product_family.js" />
+        <option value="$PROJECT_DIR$/dumb_tests/basic.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -727,34 +762,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collections/subscription_components.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="61" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collections/collection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="26" selection-start="3288" selection-end="3288" vertical-scroll-proportion="0.0" vertical-offset="1151" max-vertical-offset="3400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/entity/coupon.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="33" selection-start="3503" selection-end="3503" vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1717">
@@ -800,9 +807,7 @@
     <entry file="file://$PROJECT_DIR$/dumb_tests/basic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="19" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4488">
-          <folding>
-            <marker date="1391567620854" expanded="true" signature="261:311" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,15 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dumb_tests/basic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4811">
-          <folding>
-            <marker date="1391567620854" expanded="true" signature="261:311" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="42" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="850">
@@ -1019,23 +1015,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/entity/customer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="27" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/misc/request_wrapper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="0" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="636" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/collections/subscriptions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="25" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="1428">
           <folding />
         </state>
       </provider>
@@ -1075,9 +1057,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/subscriptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="35" selection-start="3061" selection-end="3061" vertical-scroll-proportion="0.0" vertical-offset="1129" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/entity/subscription.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="350" column="13" selection-start="13122" selection-end="13122" vertical-scroll-proportion="0.0" vertical-offset="5764" max-vertical-offset="6545">
+        <state line="359" column="0" selection-start="13520" selection-end="13520" vertical-scroll-proportion="-7.72" vertical-offset="5910" max-vertical-offset="6545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/customer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="1505" selection-end="2137" vertical-scroll-proportion="0.0" vertical-offset="636" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dumb_tests/basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="57" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/collections/product_families.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="24" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/entity/product_family.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="13" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
