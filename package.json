@@ -1,6 +1,6 @@
 {
   "name": "nodechargify",
-  "version": "0.1.19",
+  "version": "0.1.25",
   "description": "Chargify REST API wrapper",
   "main": "lib/main.js",
   "directories": {
@@ -25,8 +25,7 @@
     "dateformat": "",
     "q": "",
     "log4js": "",
-    "lodash": "",
-	"node-schema-object": "git://github.com/TimNZ/node-schema-object.git"
+    "lodash": ""
   },
   "devDependencies": {
     "should": "*",
